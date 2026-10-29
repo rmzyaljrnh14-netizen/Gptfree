@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>تحميل ملفات نظام إدارة الموارد البشرية</title>
+<style>
+  :root{--p:#1F3864;--a:#2E5C9A;--ok:#548235;--bg:#f4f7fb;}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:"Segoe UI",Tahoma,Arial,sans-serif;background:var(--bg);color:#1a1a1a}
+  header{background:linear-gradient(135deg,var(--p),var(--a));color:#fff;padding:28px 22px}
+  header h1{margin:0 0 6px;font-size:22px}
+  header p{margin:0;opacity:.9;font-size:14px}
+  .wrap{max-width:900px;margin:24px auto;padding:0 16px}
+  h2{font-size:17px;color:var(--p);border-right:5px solid var(--a);padding-right:10px;margin:26px 0 12px}
+  .card{display:flex;align-items:center;justify-content:space-between;gap:14px;
+        background:#fff;border:1px solid #dbe3ef;border-radius:12px;padding:16px 18px;margin:10px 0;
+        box-shadow:0 1px 3px rgba(31,56,100,.07)}
+  .card .info{flex:1}
+  .card .name{font-weight:700;font-size:15px;color:#12294a}
+  .card .desc{font-size:13px;color:#5a6b85;margin-top:4px;line-height:1.6}
+  .btn{display:inline-block;background:var(--ok);color:#fff;text-decoration:none;
+       padding:10px 20px;border-radius:9px;font-weight:700;font-size:14px;white-space:nowrap}
+  .btn:hover{filter:brightness(1.08)}
+  .btn.alt{background:var(--a)}
+  .note{background:#fff8e7;border:1px solid #ffe2a8;border-radius:10px;padding:12px 16px;
+        font-size:13px;line-height:1.9;color:#6b5300;margin-top:18px}
+  .badge{display:inline-block;background:#e7f3e4;color:#3d6b2a;border-radius:20px;
+         padding:2px 10px;font-size:12px;font-weight:700;margin-right:6px}
+  footer{text-align:center;color:#8a97ab;font-size:12px;padding:22px}
+</style>
+</head>
+<body>
+<header>
+  <h1>نظام إدارة الموارد البشرية — تحميل الملفات</h1>
+  <p>ملف Excel عربي (RTL) بدون ماكرو · 31 ورقة · لوحة تحكم وتقارير · تم اختباره فعليًا (34/34)</p>
+</header>
+
+<div class="wrap">
+  <h2>ملفات Excel</h2>
+
+  <div class="card">
+    <div class="info">
+      <div class="name">hr_template.xlsx <span class="badge">الملف الرئيسي</span></div>
+      <div class="desc">قالب فارغ جاهز للاستخدام الفعلي — أدخل بياناتك ابتداءً من ورقة الموظفين.</div>
+    </div>
+    <a class="btn" href="output/hr_template.xlsx" download>تحميل</a>
+  </div>
+
+  <div class="card">
+    <div class="info">
+      <div class="name">hr_demo.xlsx <span class="badge">نسخة تجريبية</span></div>
+      <div class="desc">بيانات وهمية: 12 موظفًا، 3 إدارات، إجازات، سلف، وثائق قاربت على الانتهاء، عهد غير مسترجعة.</div>
+    </div>
+    <a class="btn alt" href="output/hr_demo.xlsx" download>تحميل</a>
+  </div>
+
+  <h2>مستندات التوثيق</h2>
+
+  <div class="card">
+    <div class="info"><div class="name">دليل الاستخدام</div>
+      <div class="desc">شرح كل ورقة وطريقة الإدخال خطوة بخطوة.</div></div>
+    <a class="btn alt" href="docs/دليل_الاستخدام.md" download>تحميل</a>
+  </div>
+
+  <div class="card">
+    <div class="info"><div class="name">تقرير الاختبارات</div>
+      <div class="desc">نتائج 34 اختبارًا فعليًا والأخطاء التي أُصلحت.</div></div>
+    <a class="btn alt" href="docs/تقرير_الاختبارات.md" download>تحميل</a>
+  </div>
+
+  <div class="card">
+    <div class="info"><div class="name">قائمة الميزات</div>
+      <div class="desc">ما يعمل فعليًا وما لم يُنفَّذ.</div></div>
+    <a class="btn alt" href="docs/قائمة_الميزات.md" download>تحميل</a>
+  </div>
+
+  <div class="card">
+    <div class="info"><div class="name">الافتراضات والأمان</div>
+      <div class="desc">الافتراضات القابلة للتعديل وملاحظات الأمان والخصوصية.</div></div>
+    <a class="btn alt" href="docs/الافتراضات_والأمان.md" download>تحميل</a>
+  </div>
+
+  <div class="note">
+    <b>ملاحظات:</b><br>
+    • كلمة مرور حماية الأوراق الافتراضية: <b>hr2026</b><br>
+    • عند فتح الملف أول مرة قد يطلب Excel «تمكين التعديل» بسبب الحماية — اختر تمكين.<br>
+    • لا تفترض الملفات أي قواعد قانونية أو مالية؛ كل الإعدادات قابلة للتعديل من ورقة «الإعدادات».
+  </div>
+</div>
+
+<footer>نظام إدارة الموارد البشرية — ملفات مولّدة ومختبرة آليًا</footer>
+</body>
+</html>
